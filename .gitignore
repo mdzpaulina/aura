@@ -11,6 +11,10 @@ build/
 venv/
 env/
 
+# Cloud & Kubernetes
+.oci/
+.kube/
+
 # IDE
 .vscode/
 .idea/
