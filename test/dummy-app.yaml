@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-spring-boot
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend-spring-boot
+  template:
+    metadata:
+      labels:
+        app: backend-spring-boot
+    spec:
+      containers:
+      - name: backend-spring-boot
+        image: nginx:alpine 
+        resources:
+          requests:
+            memory: "1024Mi"
+            cpu: "500m"
+          limits:
+            memory: "1024Mi"
+            cpu: "500m"
