@@ -1,8 +1,8 @@
-# AURA - Adaptive Usage and Resource Agent
+# AURA - Adaptive Usage and Resource Assistant
 
 ## Project Title & Description
 
-**AURA** (Adaptive Usage and Resource Agent) is an intelligent Kubernetes resource optimization tool that leverages AI to analyze container consumption metrics and generate optimized resource configurations. 
+**AURA** (Adaptive Usage and Resource Assistant) is an intelligent Kubernetes resource optimization tool that leverages AI to analyze container consumption metrics and generate optimized resource configurations. 
 
 AURA connects to your OCI Kubernetes clusters, extracts real-time metrics from your running pods, and uses Google's Gemini AI to recommend optimal CPU and memory settings. This helps reduce cloud infrastructure costs while maintaining system stability and performance.
 
